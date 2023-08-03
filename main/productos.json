@@ -1,0 +1,121 @@
+[
+    
+    {
+    "id": "remera01",
+    "titulo": "Remera 01",
+    "imagen": "../img/remeras/remera01.webp",
+    "categoria": {
+        "nombre": "Remeras",
+        "id": "remeras"
+    },
+    "precio": 2500 
+
+    },
+    {
+        "id": "remera02",
+        "titulo": "Remera 02",
+        "imagen": "../img/remeras/remera02.webp",
+        "categoria": {
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 2500
+    
+    },
+    {
+        "id": "remera03",
+        "titulo": "Remera 03",
+        "imagen": "../img/remeras/remera03.webp",
+        "categoria": {
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 2500 
+    
+    },
+    {
+        "id": "remera04",
+        "titulo": "Remera 04",
+        "imagen": "../img/remeras/remera04.webp",
+        "categoria": {
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 2500 
+    
+    },
+    {
+        "id": "remera05",
+        "titulo": "Remera 05",
+        "imagen": "../img/remeras/remera05.webp",
+        "categoria": {
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 2500 
+    
+        },
+    
+    
+
+    {
+        "id": "short01",
+        "titulo": "Short 01",
+        "imagen": "../img/shorts/short01.webp",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+
+        },
+        "precio": 2000
+    },
+    {
+        "id": "short02",
+        "titulo": "Short 02",
+        "imagen": "../img/shorts/short02.webp",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+
+        },
+        "precio": 2000
+    },
+    {
+        "id": "short03",
+        "titulo": "Short 03",
+        "imagen": "../img/shorts/short03.webp",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+
+        },
+        "precio": 2000
+    },
+    
+    
+    {
+        "id": "short04",
+        "titulo": "Short 04",
+        "imagen": "../img/shorts/short04.webp",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+
+        },
+        "precio": 2000
+    },
+    
+    
+    {
+        "id": "short05",
+        "titulo": "Short 05",
+        "imagen": "../img/shorts/short05.webp",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+
+        },
+        "precio": 2000
+    }
+
+]

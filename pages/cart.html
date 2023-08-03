@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <aside>
+            <header>
+                <h1 class="logo">Men Fitness Indumentaria</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="../index.html" class="botonMenu  botonCart">
+                            <i class="bi bi-arrow-bar-left"></i> Volver a al Tienda
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+
+
+                        <a href="./cart.html" class="botonMenu  botonCart active">
+                            <i class="bi bi-bag"></i>Carrito <span class="numerito"> 0 </span>
+
+                        </a>
+
+                    </li>
+
+
+                </ul>
+            </nav>
+            <footer>
+                <p class="textFooter"> © 2023 Pedro Mila</p>
+            </footer>
+        </aside>
+        
+        
+        
+        
+        
+        
+        <main>
+            <h2 class="tituloPrincipal">Carrito</h2>
+           
+            <div class="contenedorCarrito">
+                <p id="carritoVacio" class="carritoVacio">Tu Carrito esta Vacio</p>
+                
+                
+                <div id="carritoProductos" class="carritoProductos disabled">
+                           
+                </div>
+                
+                
+                <div id="carritoAcciones" class="carritoAcciones disabled">
+                    <div class="carritoAcciones1">
+                        <button id="carritoAccionesVaciar" class="carritoAccionesVaciar">Vaciar Carrito</button>
+                    </div>
+                    <div class="carritoAcciones2">
+                        <div class="carritoAccionesTotal">
+                            <p>Total:</p>
+                            <p id="total">$7500</p>
+                        </div>
+                        <button id="carritoAccionesComprar" class="carritoAccionesComprar">Comprar</button>
+                    </div>
+                </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                
+                
+                <p id="carritoComprado" class="carritoComprado disabled">Gracias por tu compra <i class="bi bi-bag-heart-fill"></i></p>
+
+            </div>
+
+
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../main/cart.js"></script>
+</body>
+
+</html>
